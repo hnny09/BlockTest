@@ -18,8 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    double doubleNumber = 1250.0 * 1.3 * 1.0 / 0.01 ;
-    NSLog(@"%@--%d",[NSNumber numberWithDouble:doubleNumber],(int)doubleNumber);
     
 }
 
