@@ -21,15 +21,6 @@
     double doubleNumber = 1250.0 * 1.3 * 1.0 / 0.01 ;
     NSLog(@"%@--%d",[NSNumber numberWithDouble:doubleNumber],(int)doubleNumber);
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
 
 
