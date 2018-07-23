@@ -19,7 +19,6 @@
     [super viewDidLoad];    
 }
 
-
 - (IBAction)next:(id)sender {
     int (^complete)(NSString *sting , int i ) =  ^ int(NSString *sting , int i) {
         NSLog(@"%@--%d",sting, i);
@@ -33,9 +32,6 @@
     [nextVC setNumberVC:NextCallback];
     [self.navigationController pushViewController:nextVC animated:YES];
 }
-
-
-
 
 
 - (void)didReceiveMemoryWarning {
