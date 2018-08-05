@@ -13,7 +13,6 @@
 		7511ECC81C34DC9C00C5C8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7511ECC61C34DC9C00C5C8FE /* Main.storyboard */; };
 		7511ECCA1C34DC9C00C5C8FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7511ECC91C34DC9C00C5C8FE /* Assets.xcassets */; };
 		7511ECCD1C34DC9C00C5C8FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7511ECCB1C34DC9C00C5C8FE /* LaunchScreen.storyboard */; };
-		7511ECD61C34DCAE00C5C8FE /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7511ECD51C34DCAE00C5C8FE /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,6 @@
 		7511ECC91C34DC9C00C5C8FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7511ECCC1C34DC9C00C5C8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7511ECCE1C34DC9C00C5C8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7511ECD41C34DCAE00C5C8FE /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
-		7511ECD51C34DCAE00C5C8FE /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +62,6 @@
 				7511ECC11C34DC9B00C5C8FE /* AppDelegate.m */,
 				7511ECC31C34DC9B00C5C8FE /* ViewController.h */,
 				7511ECC41C34DC9B00C5C8FE /* ViewController.m */,
-				7511ECD41C34DCAE00C5C8FE /* NextViewController.h */,
-				7511ECD51C34DCAE00C5C8FE /* NextViewController.m */,
 				7511ECC61C34DC9C00C5C8FE /* Main.storyboard */,
 				7511ECC91C34DC9C00C5C8FE /* Assets.xcassets */,
 				7511ECCB1C34DC9C00C5C8FE /* LaunchScreen.storyboard */,
@@ -155,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7511ECC51C34DC9B00C5C8FE /* ViewController.m in Sources */,
-				7511ECD61C34DCAE00C5C8FE /* NextViewController.m in Sources */,
 				7511ECC21C34DC9B00C5C8FE /* AppDelegate.m in Sources */,
 				7511ECBF1C34DC9B00C5C8FE /* main.m in Sources */,
 			);
@@ -304,6 +298,7 @@
 				7511ECD31C34DC9C00C5C8FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
