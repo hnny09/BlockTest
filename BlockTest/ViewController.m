@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "NextViewController.h"
 
 @interface ViewController ()
 
@@ -25,13 +24,12 @@
         NSLog(@"%@--%d",sting, i);
         return 3;
     };
+     int aa =  complete(@"1",3);
+    NSLog(@"aaaaa-------%d",aa);
     void(^NextCallback)(NSString *number, int i) = ^(NSString *number , int i ) {
         NSLog(@"%@--%d",number, i);
     };
-    NextViewController *nextVC = [self.storyboard instantiateViewControllerWithIdentifier:@"NextViewController"];
-    [nextVC resetVC:complete];
-    [nextVC setNumberVC:NextCallback];
-    [self.navigationController pushViewController:nextVC animated:YES];
+    NextCallback(@"33333333",3);
 }
 
 
